@@ -24,7 +24,6 @@ ll root;
 int BIT[N],arr[N];
 vector<vector<int>>graph;
 ll seg[N<<2];
-//https://www.lanqiao.cn/problems/19734/learning/
 
 void build(int a[])
 {
