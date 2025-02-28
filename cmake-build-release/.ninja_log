@@ -1,0 +1,14 @@
+# ninja log v6
+6	514	7624474991916440	CMakeFiles/GetIt.dir/LanQiao/DP/Medium/Train_transportation.cpp.obj.ddi	f6a3e677ba5646bd
+653	730	7628001511819570	CMakeFiles/GetIt.dir/CXX.dd	5e2bab51fd251dc1
+6	539	7624960730207335	CMakeFiles/GetIt.dir/LanQiao/DP/Medium/Simple_LIS_Questions.cpp.obj.ddi	66aaf2f6b705e050
+542	2788	7624474997270126	CMakeFiles/GetIt.dir/LanQiao/DP/Medium/Train_transportation.cpp.obj	a2b281f95b44d0b7
+653	730	7628001511819570	D:/Project/Personal_Projects/GetIt/cmake-build-release/CMakeFiles/GetIt.dir/CXXModules.json	5e2bab51fd251dc1
+515	541	7624474997230138	CMakeFiles/GetIt.dir/LanQiao/DP/Medium/Train_transportation.cpp.obj.modmap	470111c8bcecc32f
+3169	3339	7628001536979989	GetIt.exe	b4e43f52058a7cd0
+3	259	7631252140633301	build.ninja	99b4c51958055d6f
+540	566	7624960735543190	CMakeFiles/GetIt.dir/LanQiao/DP/Medium/Simple_LIS_Questions.cpp.obj.modmap	25688c7d611f1203
+567	2721	7624960735822474	CMakeFiles/GetIt.dir/LanQiao/DP/Medium/Simple_LIS_Questions.cpp.obj	681ff355a2ce8b90
+3	652	7628001505320553	CMakeFiles/GetIt.dir/LanQiao/DP_improve/Easy/Left_child,_right_brother.cpp.obj.ddi	31012a5628a17253
+653	730	7628001511819570	CMakeFiles/GetIt.dir/LanQiao/DP_improve/Easy/Left_child,_right_brother.cpp.obj.modmap	5e2bab51fd251dc1
+732	3164	7628001512611157	CMakeFiles/GetIt.dir/LanQiao/DP_improve/Easy/Left_child,_right_brother.cpp.obj	40957e0560d9a96b

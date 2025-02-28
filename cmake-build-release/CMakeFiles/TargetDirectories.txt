@@ -1,0 +1,3 @@
+D:/Project/Personal_Projects/GetIt/cmake-build-release/CMakeFiles/GetIt.dir
+D:/Project/Personal_Projects/GetIt/cmake-build-release/CMakeFiles/edit_cache.dir
+D:/Project/Personal_Projects/GetIt/cmake-build-release/CMakeFiles/rebuild_cache.dir

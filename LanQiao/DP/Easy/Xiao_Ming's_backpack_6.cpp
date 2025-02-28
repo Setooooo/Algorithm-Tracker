@@ -1,3 +1,6 @@
+//
+// Created by beHe on 25-3-4.
+//
 #include <bits/stdc++.h>
 //There used to be a lot of header files here...
 
@@ -14,7 +17,7 @@ void solve()
 int main()
 {
     ios::sync_with_stdio(false);
-    cin.tie(nullptr),cout.tie(nullptr);
+    cin.tie(nullptr);
 
     ifstream file(R"(D:\Project\Personal_Projects\GetIt\TEST\test1.txt)");
     cin.rdbuf(file.rdbuf());
