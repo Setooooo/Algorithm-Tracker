@@ -1,0 +1,3 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/GetIt.dir/LanQiao/DP/Medium/Simple_LIS_Questions.cpp.obj: dyndep
+

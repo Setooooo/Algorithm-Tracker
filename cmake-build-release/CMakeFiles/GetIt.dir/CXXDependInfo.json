@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Release",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "D:/Project/Personal_Projects/GetIt/cmake-build-release",
+	"dir-cur-src" : "D:/Project/Personal_Projects/GetIt",
+	"dir-top-bld" : "D:/Project/Personal_Projects/GetIt/cmake-build-release",
+	"dir-top-src" : "D:/Project/Personal_Projects/GetIt",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "D:/Project/Personal_Projects/GetIt/cmake-build-release/CMakeFiles/GetIt.dir"
+}
