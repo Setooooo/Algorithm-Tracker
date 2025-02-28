@@ -8,8 +8,10 @@ using namespace std;
 
 using ll=long long;
 using ull=unsigned long long;
-constexpr int N=100;
+constexpr int N=110;
 int memo[N][N],limit[N];
+
+constexpr ll mod=1e6+7;
 
 int dfs(int res,int i,int n) {
     if (memo[i][n])
@@ -29,12 +31,17 @@ void solve()
     for (int i=1;i<=n;++i) {
         cin>>limit[i];
     }
-    vector<vector<int>> dp(n+1,vector<int> (m+1,0));
+    vector<vector<ll>> dp(n+1,vector<ll> (m+1,0));
     for (int i=0;i<=limit[1];++i)
         dp[1][i]=1;
     for (int i=2;i<=n;++i) {
-        for (int j=0;j<=limit[i];++j){}
+        for (int j=0;j<=m;++j) {
+            for (int k=0;k<=limit[i]&&j-k>=0;++k) {
+                dp[i][j]=(dp[i-1][j-k]+dp[i][j])%mod;
+            }
+        }
     }
+    cout<<dp[n][m]<<'\n';
 }
 
 int main()
