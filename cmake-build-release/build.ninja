@@ -49,37 +49,22 @@ cmake_ninja_workdir = D$:/Project/Personal_Projects/GetIt/cmake-build-release/
 
 build cmake_object_order_depends_target_GetIt: phony || .
 
-build CMakeFiles/GetIt.dir/LanQiao/DP_improve/Easy/The_minister's_travel_expenses.cpp.obj.ddi: CXX_SCAN__GetIt_Release D$:/Project/Personal_Projects/GetIt/LanQiao/DP_improve/Easy/The_minister's_travel_expenses.cpp || cmake_object_order_depends_target_GetIt
-  DEP_FILE = "CMakeFiles\GetIt.dir\LanQiao\DP_improve\Easy\The_minister's_travel_expenses.cpp.obj.ddi.d"
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\GetIt.dir\LanQiao\DP_improve\Easy\The_minister's_travel_expenses.cpp.obj.ddi
+build CMakeFiles/GetIt.dir/LanQiao/DP_improve/Easy/Mini-games_in_class.cpp.obj.ddi: CXX_SCAN__GetIt_Release D$:/Project/Personal_Projects/GetIt/LanQiao/DP_improve/Easy/Mini-games_in_class.cpp || cmake_object_order_depends_target_GetIt
+  DEP_FILE = CMakeFiles\GetIt.dir\LanQiao\DP_improve\Easy\Mini-games_in_class.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\GetIt.dir\LanQiao\DP_improve\Easy\Mini-games_in_class.cpp.obj.ddi
   FLAGS = -O3 -DNDEBUG -std=gnu++20 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles\GetIt.dir\LanQiao\DP_improve\Easy\The_minister's_travel_expenses.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\GetIt.dir\LanQiao\DP_improve\Easy\The_minister's_travel_expenses.cpp.obj.ddi.i
+  OBJ_FILE = CMakeFiles\GetIt.dir\LanQiao\DP_improve\Easy\Mini-games_in_class.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\GetIt.dir\LanQiao\DP_improve\Easy\Mini-games_in_class.cpp.obj.ddi.i
 
-build CMakeFiles/GetIt.dir/LanQiao/DP_improve/Easy/The_minister's_travel_expenses.cpp.obj: CXX_COMPILER__GetIt_scanned_Release D$:/Project/Personal_Projects/GetIt/LanQiao/DP_improve/Easy/The_minister's_travel_expenses.cpp | CMakeFiles/GetIt.dir/LanQiao/DP_improve/Easy/The_minister's_travel_expenses.cpp.obj.modmap || cmake_object_order_depends_target_GetIt CMakeFiles/GetIt.dir/CXX.dd
-  DEP_FILE = "CMakeFiles\GetIt.dir\LanQiao\DP_improve\Easy\The_minister's_travel_expenses.cpp.obj.d"
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\GetIt.dir\LanQiao\DP_improve\Easy\The_minister's_travel_expenses.cpp.obj.modmap
-  FLAGS = -O3 -DNDEBUG -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\GetIt.dir
-  OBJECT_FILE_DIR = CMakeFiles\GetIt.dir\LanQiao\DP_improve\Easy
-  dyndep = CMakeFiles/GetIt.dir/CXX.dd
-
-build CMakeFiles/GetIt.dir/LanQiao/DP_improve/Easy/Blue_Bridge_Dance_Party.cpp.obj.ddi: CXX_SCAN__GetIt_Release D$:/Project/Personal_Projects/GetIt/LanQiao/DP_improve/Easy/Blue_Bridge_Dance_Party.cpp || cmake_object_order_depends_target_GetIt
-  DEP_FILE = CMakeFiles\GetIt.dir\LanQiao\DP_improve\Easy\Blue_Bridge_Dance_Party.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\GetIt.dir\LanQiao\DP_improve\Easy\Blue_Bridge_Dance_Party.cpp.obj.ddi
-  FLAGS = -O3 -DNDEBUG -std=gnu++20 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles\GetIt.dir\LanQiao\DP_improve\Easy\Blue_Bridge_Dance_Party.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\GetIt.dir\LanQiao\DP_improve\Easy\Blue_Bridge_Dance_Party.cpp.obj.ddi.i
-
-build CMakeFiles/GetIt.dir/LanQiao/DP_improve/Easy/Blue_Bridge_Dance_Party.cpp.obj: CXX_COMPILER__GetIt_scanned_Release D$:/Project/Personal_Projects/GetIt/LanQiao/DP_improve/Easy/Blue_Bridge_Dance_Party.cpp | CMakeFiles/GetIt.dir/LanQiao/DP_improve/Easy/Blue_Bridge_Dance_Party.cpp.obj.modmap || cmake_object_order_depends_target_GetIt CMakeFiles/GetIt.dir/CXX.dd
-  DEP_FILE = CMakeFiles\GetIt.dir\LanQiao\DP_improve\Easy\Blue_Bridge_Dance_Party.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\GetIt.dir\LanQiao\DP_improve\Easy\Blue_Bridge_Dance_Party.cpp.obj.modmap
+build CMakeFiles/GetIt.dir/LanQiao/DP_improve/Easy/Mini-games_in_class.cpp.obj: CXX_COMPILER__GetIt_scanned_Release D$:/Project/Personal_Projects/GetIt/LanQiao/DP_improve/Easy/Mini-games_in_class.cpp | CMakeFiles/GetIt.dir/LanQiao/DP_improve/Easy/Mini-games_in_class.cpp.obj.modmap || cmake_object_order_depends_target_GetIt CMakeFiles/GetIt.dir/CXX.dd
+  DEP_FILE = CMakeFiles\GetIt.dir\LanQiao\DP_improve\Easy\Mini-games_in_class.cpp.obj.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\GetIt.dir\LanQiao\DP_improve\Easy\Mini-games_in_class.cpp.obj.modmap
   FLAGS = -O3 -DNDEBUG -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\GetIt.dir
   OBJECT_FILE_DIR = CMakeFiles\GetIt.dir\LanQiao\DP_improve\Easy
   dyndep = CMakeFiles/GetIt.dir/CXX.dd
 
-build CMakeFiles/GetIt.dir/CXX.dd | D$:/Project/Personal_Projects/GetIt/cmake-build-release/CMakeFiles/GetIt.dir/CXXModules.json CMakeFiles/GetIt.dir/LanQiao/DP_improve/Easy/The_minister's_travel_expenses.cpp.obj.modmap CMakeFiles/GetIt.dir/LanQiao/DP_improve/Easy/Blue_Bridge_Dance_Party.cpp.obj.modmap: CXX_DYNDEP__GetIt_Release CMakeFiles/GetIt.dir/LanQiao/DP_improve/Easy/The_minister's_travel_expenses.cpp.obj.ddi CMakeFiles/GetIt.dir/LanQiao/DP_improve/Easy/Blue_Bridge_Dance_Party.cpp.obj.ddi | D$:/Project/Personal_Projects/GetIt/cmake-build-release/CMakeFiles/GetIt.dir/CXXDependInfo.json
+build CMakeFiles/GetIt.dir/CXX.dd | D$:/Project/Personal_Projects/GetIt/cmake-build-release/CMakeFiles/GetIt.dir/CXXModules.json CMakeFiles/GetIt.dir/LanQiao/DP_improve/Easy/Mini-games_in_class.cpp.obj.modmap: CXX_DYNDEP__GetIt_Release CMakeFiles/GetIt.dir/LanQiao/DP_improve/Easy/Mini-games_in_class.cpp.obj.ddi | D$:/Project/Personal_Projects/GetIt/cmake-build-release/CMakeFiles/GetIt.dir/CXXDependInfo.json
 
 
 # =============================================================================
@@ -89,8 +74,9 @@ build CMakeFiles/GetIt.dir/CXX.dd | D$:/Project/Personal_Projects/GetIt/cmake-bu
 #############################################
 # Link the executable GetIt.exe
 
-build GetIt.exe: CXX_EXECUTABLE_LINKER__GetIt_Release CMakeFiles/GetIt.dir/LanQiao/DP_improve/Easy/The_minister's_travel_expenses.cpp.obj CMakeFiles/GetIt.dir/LanQiao/DP_improve/Easy/Blue_Bridge_Dance_Party.cpp.obj
+build GetIt.exe: CXX_EXECUTABLE_LINKER__GetIt_Release CMakeFiles/GetIt.dir/LanQiao/DP_improve/Easy/Mini-games_in_class.cpp.obj
   FLAGS = -O3 -DNDEBUG
+  LINK_FLAGS = -Wl,--stack=268435456
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\GetIt.dir
   POST_BUILD = cd .

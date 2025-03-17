@@ -3,40 +3,38 @@
 //
 #include <bits/stdc++.h>
 //There used to be a lot of header files here...
+//砝码称重
 
 using namespace std;
 
 using ll=long long;
 using ull=unsigned long long;
 
-int arr[110][110];
+constexpr int N=1e5+10;
+bitset<N*2>a,b;
 
 void solve()
 {
-    int n,x;
+    ll n,x;
     cin>>n;
-    for(int i=1;i<=n;++i)
-        for(int j=1;j<=i;++j)
-            cin>>arr[i][j];
-    for(int i=1;i<=n;++i)
-        for(int j=1;j<=i;++j){
-            if(j==1)
-                arr[i][j]+=arr[i-1][j];
-            else if(j==i)
-                arr[i][j]+=arr[i-1][j-1];
-            else
-                arr[i][j]+=max(arr[i-1][j],arr[i-1][j-1]);
-        }
-    int ans=0;
-    for(int i=1;i<=n;++i)
-        ans=max(ans,arr[n][i]);
-    cout<<ans;
+    for(int i=0;i<n;++i){
+        cin>>x;
+        a|=a>>x;
+        a|=a<<x;
+        a[N+x]=1;
+        a[N-x]=1;
+    }
+    ll sum=0;
+    for(int i=N+1;i<N*2;++i)
+        sum+=a[i];
+    cout<<sum;
 }
 
 int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+
     ifstream file(R"(D:\Project\Personal_Projects\GetIt\TEST\test1.txt)");
     cin.rdbuf(file.rdbuf());
 
