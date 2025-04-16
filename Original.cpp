@@ -6,6 +6,13 @@ using namespace std;
 using ll=long long;
 using ull=unsigned long long;
 
+class Solution{
+
+public:
+    Solution():{};
+};
+
+
 void solve()
 {
 
@@ -20,6 +27,7 @@ int main()
     cin.rdbuf(file.rdbuf());
 
     int T=1;
+//    cin>>T;
     while (T--)
     {
         solve();
