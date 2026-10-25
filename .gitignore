@@ -1,2 +1,35 @@
-/cmake-build-debug/
+# Generated build directories and binaries
+/cmake-build-*/
+/.build/
+/build/
+/build-*/
+/out/
+*.exe
+*.o
+*.obj
+*.pdb
+*.ilk
+*.out
+
+# Python environments and bytecode
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local IDE state; keep shared formatting and inspection settings
+/.idea/*
+!/.idea/codeStyles/
+!/.idea/codeStyles/**
+!/.idea/inspectionProfiles/
+!/.idea/inspectionProfiles/**
+/.vscode/
+
+# Each source is an independent program; CMake target selection is local
 /CMakeLists.txt
+
+# Editor backups and OS metadata
+*.bkp
+*~
+.DS_Store
+Thumbs.db
