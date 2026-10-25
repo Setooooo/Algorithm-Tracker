@@ -1,0 +1,91 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram name="第 1 页" id="hQzRQ2UHdjKfvBh6Gjj_">
+    <mxGraphModel dx="397" dy="327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r_Y42GA9Ob1LsDJSBnsV-3" edge="1" parent="1" source="r_Y42GA9Ob1LsDJSBnsV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="r_Y42GA9Ob1LsDJSBnsV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r_Y42GA9Ob1LsDJSBnsV-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;owo&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="330" as="geometry" />
+        </mxCell>
+        <mxCell id="r_Y42GA9Ob1LsDJSBnsV-17" edge="1" parent="1" source="r_Y42GA9Ob1LsDJSBnsV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="r_Y42GA9Ob1LsDJSBnsV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r_Y42GA9Ob1LsDJSBnsV-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;" value="如何拼接得到更多的owo" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="r_Y42GA9Ob1LsDJSBnsV-4" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="计算owo的数量可以使用kmp算法" vertex="1">
+          <mxGeometry height="60" width="120" x="430" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="r_Y42GA9Ob1LsDJSBnsV-5" edge="1" parent="1" source="r_Y42GA9Ob1LsDJSBnsV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.592;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" target="r_Y42GA9Ob1LsDJSBnsV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r_Y42GA9Ob1LsDJSBnsV-8" edge="1" parent="1" source="r_Y42GA9Ob1LsDJSBnsV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="r_Y42GA9Ob1LsDJSBnsV-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r_Y42GA9Ob1LsDJSBnsV-6" parent="1" style="whiteSpace=wrap;html=1;" value="有其他的符号和ow我们可以压缩其他的字符关于于ow这两个字符" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="r_Y42GA9Ob1LsDJSBnsV-12" edge="1" parent="1" source="r_Y42GA9Ob1LsDJSBnsV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="r_Y42GA9Ob1LsDJSBnsV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r_Y42GA9Ob1LsDJSBnsV-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="我们处理的字符变得有限个数" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="r_Y42GA9Ob1LsDJSBnsV-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="o,w,ow,wo,owo,wow" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="r_Y42GA9Ob1LsDJSBnsV-10" parent="1" style="whiteSpace=wrap;html=1;" value="#w...\#o...\#o...w#" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="r_Y42GA9Ob1LsDJSBnsV-14" edge="1" parent="1" source="r_Y42GA9Ob1LsDJSBnsV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="r_Y42GA9Ob1LsDJSBnsV-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r_Y42GA9Ob1LsDJSBnsV-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="#owo some chars#&lt;div&gt;如果字符两边都没有那么我们只需要计算其中的owo数量即可&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="r_Y42GA9Ob1LsDJSBnsV-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="o some char#&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;w some char#&lt;/span&gt;&lt;div&gt;。。。&lt;/div&gt;&lt;div&gt;类似这种如果旁边有关键的字符我们需要去考虑&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="140" x="240" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="r_Y42GA9Ob1LsDJSBnsV-19" edge="1" parent="1" source="r_Y42GA9Ob1LsDJSBnsV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="r_Y42GA9Ob1LsDJSBnsV-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r_Y42GA9Ob1LsDJSBnsV-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="#o 可以和 wo# 相连构成owo&lt;div&gt;#ow 可以和 o# 相连构成 owo&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="215" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="r_Y42GA9Ob1LsDJSBnsV-16" edge="1" parent="1" source="r_Y42GA9Ob1LsDJSBnsV-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.51;entryY=0.105;entryDx=0;entryDy=0;entryPerimeter=0;" target="r_Y42GA9Ob1LsDJSBnsV-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r_Y42GA9Ob1LsDJSBnsV-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="或许可以分类一些字符出来&lt;div&gt;#o&lt;/div&gt;&lt;div&gt;#w 这个没有作用&lt;/div&gt;&lt;div&gt;#ow&amp;nbsp;&lt;/div&gt;&lt;div&gt;#wo 无作用 视作# o&lt;/div&gt;&lt;div&gt;o# 可以接在 #ow后面&lt;/div&gt;&lt;div&gt;wo# 可以接在 #o 后面&lt;/div&gt;&lt;div&gt;单个的 o w 可以作为 一些碎片去拼成owo&lt;/div&gt;&lt;div&gt;单个的可以自己组合成owo 或者和其他带有#的字符串去拼成 owo&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="270" x="175" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="r_Y42GA9Ob1LsDJSBnsV-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="大致的思路可以把字符串分成三种&lt;div&gt;- 两头都不特殊的，我们可以放在一边后面拼接&lt;/div&gt;&lt;div&gt;- 一头特殊的，我们需要去尽量去配对，然后更多地得到owo&lt;/div&gt;&lt;div&gt;- 单个的 o w 或者 ow wo 的我们尽量和第二个去配对然后得到owo 然后单个的字符尽量集中在一起，因为 两个连在一起的owowo 需要的字符更少&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="305" x="157.5" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="r_Y42GA9Ob1LsDJSBnsV-21" edge="1" parent="1" source="r_Y42GA9Ob1LsDJSBnsV-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.495;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" target="r_Y42GA9Ob1LsDJSBnsV-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r_Y42GA9Ob1LsDJSBnsV-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="#ow 和 o#配对&lt;div&gt;#o 和 wo#配对&lt;/div&gt;&lt;div&gt;#wo 当作 #o . ow# 当作o#&lt;/div&gt;&lt;div&gt;小的单独的集中起来放在中间&lt;/div&gt;&lt;div&gt;剩下下尽量配对&lt;/div&gt;" vertex="1">
+          <mxGeometry height="145" width="240" x="510" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="r_Y42GA9Ob1LsDJSBnsV-23" edge="1" parent="1" source="r_Y42GA9Ob1LsDJSBnsV-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.371;entryDx=0;entryDy=0;entryPerimeter=0;" target="r_Y42GA9Ob1LsDJSBnsV-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rKHoA0Vs3qmT37YqRuZ9-5" edge="1" parent="1" source="rKHoA0Vs3qmT37YqRuZ9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="rKHoA0Vs3qmT37YqRuZ9-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rKHoA0Vs3qmT37YqRuZ9-2" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=10;align=left;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;顺着你的思路来解题吧&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;我们发现这个似乎变成了一个最大匹配的问题，我们知道我们手上的拼接的东西，我们该如何拼的最大呢&lt;/font&gt;&lt;/div&gt;&lt;div&gt;如果我分成左插头和右插头的方式的话&lt;/div&gt;&lt;div&gt;如果只是 #ow 或者 o# 然后和 #o 和wo#我可以理解，要是可能是 w#o呢或者说o#o呢，我们该如何匹配呢？这个是左插头还是右插头呢？&lt;/div&gt;&lt;div&gt;还说对于 o#w 和 w#o 这种两个都可以的我们似乎某种情况下是可以充当两个插头的&lt;/div&gt;&lt;div&gt;o#o 和 w#w也是&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="160" x="520" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="rKHoA0Vs3qmT37YqRuZ9-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;font size=&quot;1&quot;&gt;对于#ow 和 owo#拼接的话，这里会直接得到两个owo，我们或许可以一开始对于所有的字符串去匹配owo，然后得到一个基数，我们在加上我们拼接新生成的，那么就是我们所有的最优的owo&lt;/font&gt;" vertex="1">
+          <mxGeometry height="160" width="120" x="690" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="rKHoA0Vs3qmT37YqRuZ9-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="如果只剩下 o#w 或者 w#o 他们什么都拼不成，这个怎么做呢？" vertex="1">
+          <mxGeometry height="90" width="180" x="510" y="560" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
